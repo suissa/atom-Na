@@ -1,32 +1,33 @@
 module.exports = { 
   simbolo: 'Na', 
   nome: 'Sódio',
+  numeroAtomico: 11,
   familia: {
     {      
-      coluna: '2'
+      coluna: '1'
     }, 
     {
-      grupo: '2A'
+      grupo: '1A'
     }, 
     {
-      descritiva: ''
+      descritiva: 'Metal alcalino'
     }
   }, 
-  periodo: 1, 
+  periodo: 2, 
   numero: {
-    eletrons: 1,
-    neutrons: 0,
-    protons: 1
+    eletrons: 11,
+    neutrons: 11,
+    protons: 11
   },
   distribuicaoEletronica: {
     k: {
-      s: 1
+      s: 2
     },
     l: {
-      s: 0, p: 0
+      s: 2, p: 6
     },
     m: {
-      s: 0, p: 0, d: 0
+      s: 1, p: 0, d: 0
     },
     n: {
       s: 0, p: 0, d: 0, f: 0
