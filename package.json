@@ -1,0 +1,30 @@
+{
+  "name": "atom-na",
+  "version": "1.0.0",
+  "description": "Propriedades do átomo de Sódio",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suissa/atom-Na.git"
+  },
+  "keywords": [
+    "atom",
+    "átomo",
+    "na",
+    "Sódio",
+    "química",
+    "chemistry",
+    "webschool"
+  ],
+  "author": "Suissa",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/suissa/atom-Na/issues"
+  },
+  "homepage": "https://github.com/suissa/atom-Na#readme"
+}
