@@ -1,7 +1,7 @@
 module.exports = { 
   simbolo: 'Na', 
   nome: 'Sódio',
-  numeroA
+  numeroAtomico: 11,
   familia: {
     {      
       coluna: '1'
