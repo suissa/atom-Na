@@ -1,13 +1,13 @@
-# Atoms - Mg
+# Atoms - Na
 
-Átomo do Magnésio, inicialmente em pt-br.
+Átomo do Sódio, inicialmente em pt-br.
 
 ## Estrutura
 
 ```js
 module.exports = { 
-  simbolo: 'Mg', 
-  nome: 'Magnésio',
+  simbolo: 'Na', 
+  nome: 'Sódio',
   familia: {
     {      
       coluna: '2'
