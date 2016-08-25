@@ -1,19 +1,19 @@
-module.exports = { 
-  simbolo: 'Na', 
+module.exports = {
+  simbolo: 'Na',
   nome: 'Sódio',
   numeroAtomico: 11,
-  familia: {
-    {      
+  familia: [
+    {
       coluna: '1'
-    }, 
+    },
     {
       grupo: '1A'
-    }, 
+    },
     {
       descritiva: 'Metal alcalino'
     }
-  }, 
-  periodo: 2, 
+  ],
+  periodo: 2,
   numero: {
     eletrons: 11,
     neutrons: 11,
@@ -35,7 +35,7 @@ module.exports = {
     o: {
       s: 0, p: 0, d: 0, f: 0
     },
-    p: { 
+    p: {
       s: 0, p: 0, d: 0
     },
     q: {
@@ -45,80 +45,67 @@ module.exports = {
   propriedades: {
     fisicas: {
       densidade: {
-        valor: 0.0899, 
+        valor: 968,
         unidade: 'kg/m3'
       },
-      estadodaMateria: {   
-        valor: 'gasoso' 
+      estadodaMateria: {
+        valor: 'gasoso'
       },
       raioAtomico: {
-        valor: 53, 
+        valor: 186,
         unidade: 'pm'
       },
       massaAtomica: {
-        valor: 1.00797, 
+        valor: 22.98976928,
         unidade: 'u'
       }
     },
     quimicas: {
-      meiaVida: require('property-meiavida-h'),
-      estadoOxidacao: require('property-estado-oxidacao-h'),
-      estruturaCristalina: require('property-estrutura-cristalina-h'),
-      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-h'),
+      estadoOxidacao: require('property-estado-oxidacao-na'),
+      estruturaCristalina: require('property-estrutura-cristalina-na'),
+      eletronegatividadePauling: require('property-eletronegatividade-de-pauling-na'),
       pontoFusao: {
-        valor: 14.025, 
+        valor: 370.95,
         unidade: require('unity-k').unidade
       },
-      pontoEbulicao: {   
-        valor: 20.268, 
+      pontoEbulicao: {
+        valor: 1156,
         unidade: require('unity-k').unidade
       },
-      energiaIonizacao: {   
-        valor: 1312, 
-        unidade: require('unity-kjXmol-1').unidade
-      },
-      raioCovalente: {   
-        valor: 12.3, 
+      raioCovalente: {
+        valor: 154,
         unidade: require('unity-pm').unidade
       },
-      raioVanderWaals: {   
-        valor: 120, 
+      raioVanderWaals: {
+        valor: 227,
         unidade: require('unity-pm').unidade
       },
-      entalpiadefusao: {   
-        valor: 0.05868, 
+      entalpiadefusao: {
+        valor: 2.598,
         unidade: require('unity-kjXmol-1').unidade
       },
-      entalpiadevaporizacao: {   
-        valor: 0.44936, 
-        unidade: require('unity-kjXmol-1').unidade
-      },
-      volumeMolar: {   
-        valor: 0.0000114, 
+      entalpiadevaporizacao: {
+        valor: 96.96,
         unidade: require('unity-kjXmol-1').unidade
       },
       pressaodeVapor: {
         pressao: {
-          valor: 209, 
+          valor: 1,
           unidade: require('unity-pa').unidade,
         },
         temperatura: {
-          valor: 23, 
+          valor: 554,
           unidade: require('unity-k').unidade,
         }
       },
-      calorEspecífico: {   
-        valor: 14304, 
+      calorEspecífico: {
+        valor: 1230,
         unidade: 'J/(kg·K)'
       },
-      condutividadeEletrica: {   
-        valor: 106, 
-        unidade: 'S/m'
-      },
       condutividadeTermica: {
-        valor: 0.1815,
+        valor: 141,
         unidade: 'W/(m·K)'
-      } 
+      }
     }
   }
 }
